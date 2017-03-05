@@ -1,0 +1,12 @@
+section{
+	height: 900px;
+}
+.sidebar{
+	position: fixed;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	font-size: 40px;
+}
