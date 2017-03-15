@@ -1,12 +1,55 @@
-section{
-	height: 900px;
+*{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 100;
 }
-.sidebar{
-	position: fixed;
+a{
+	color: white;
+}
+body{
+	background: #3096D2;
+}
+section{
+	min-height: 900px;
+	padding-top: 50px;
+}
+section a{
+	text-decoration: underline;
+}
+section a:hover{
+	color: white;
+}
+li, p{
+	font-size: 22px;
+	line-height: 35px;
+}
+h1{
+	text-align: center;
+	font-size: 72px;
+	margin: 300px 0;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+h3{
+	font-size: 30px;
+	font-weight: 400px;
 }
 ul{
 	list-style-type: none;
 }
-li{
-	font-size: 40px;
+.sidebar{
+	position: fixed;
+}
+.sidebar li{
+	font-size: 24px;
+}
+.sidebar ul{
+	list-style-type: none;
+}
+img{
+	width: 100%;
+	height: auto;
 }
