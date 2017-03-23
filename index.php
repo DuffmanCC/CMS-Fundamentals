@@ -22,7 +22,7 @@
         <div class="col-xs-2">
           <aside class="sidebar">
             <ul>
-              <?php for ($i=0; $i < 20; $i++): ?>
+              <?php for ($i=0; $i < 9; $i++): ?>
                 <li><a href="#<?php echo $i ?>"><?php echo $i ?></a></li>
               <?php endfor ?>
             </ul>           
@@ -40,7 +40,7 @@
           <section id="1">
 
             <h2>#1 - What is a CMS</h2>
-            <p>Server-side sofware that is designed to simplify the creation and maintenance of sites. These systems manage online content, generate web pages, and allow users to upload and change content without requiring technical expertise</p>
+            <p>Server-side sofware that is designed to simplify the creation and maintenance of sites. These systems manage online content, generate web pages, and allow users to upload and change content without requiring technical expertise.</p>
 
           </section>
 
@@ -50,14 +50,15 @@
 
             <ul>
               <li>- Web-based CMS can trace its origins to print-based Document Assembly Content System</li>
-              <li>- As web publising increased, the need for content management grew</li>
-              <li>- Few tools existed in the mid 90's to manage online content</li>
-              <li>- At the end of the 90's there was an explosion of proprietary CMS</li>
-              <li>- System tended to be expensive</li>
-              <li>- Many proprietary CMS were customized based on client's requirements</li>
-              <li>- At this stage, CMS sites tended to be restricted to larger sites.</li>
+              <li>- As web publising increased, the need for content management grew.</li>
+              <li>- Few tools existed in the mid 90's to manage online content.</li>
+              <li>- At the end of the 90's there was an explosion of proprietary CMS.</li>
+              <li>- System tended to be expensive.</li>
+              <li>- Many proprietary CMS were customized based on client's requirements.</li>their needs. </li>
+              <li>- For the most part CMS sites were limited to the larger, enterprise-level clients that could afford such services.</li>
             </ul>
-            <img src="/images/cms_history.png" class="img-fluid">
+            <p class="text-center"><img src="/images/history.jpg" class="img-fluid"></p>
+            
 
           </section>
 
@@ -65,11 +66,13 @@
 
             <h2>#3 - The evolution of CMS - 2</h2>
             <ul>
-              <li>- At 2000, emergence of open-source software </li>
-              <li>- 2001, Drupal</li>
-              <li>- 2005, Joomla</li>
-              <li>- Open-source blogging platforms appear</li>
-              <li>- 2005, Wordpress</li>
+              <li>- Around 2000 the growing popularity of the LAMP Stack offered an opportunity to change all of that.</li>
+              <li>- LAMP is an acronym that stands for Linux, Apache, MySQL, and PHP, products that when combined allowed individuals to create powerful general purpose web servers.</li>
+              <li>- These free open-source programs revolutionized many industries and resulted in an explosion of hosting companies, open- source software, and do-it-yourself solutions.</li>
+              <li>- The CMS marketplace was directly affected by this development with the release of products like Drupal in 2001 and Joomla! in 2005.</li>
+              <li>- These free open-source CMSs offered an alternative to the growing commercial field and quickly developed a large support community that continues to improve and extend those platforms.</li>
+              <li>- At the same time, other CMSs were revolving as well, usually as a result of maturing online markets, products like WordPress evolved out of the blogging community and have gone onto become powerful CMSs in their own right.</li>
+
             </ul>
 
           </section>
@@ -77,29 +80,34 @@
           <section id="4">
 
             <h2>#4 - CMS types</h2>
+
+            <p>There are literally hundreds of CMSs on the market, and trying to pin them down within a single category set is difficult.</p>
+
+            <p>This is a list of CMS by types that focus on either a specific industry or content type.</p>
+
             <h3>General Purpose</h3>
             <p>These systems have no specific focus but are designed to give you control over site architecture, content publishing, and site administration. Most of these systems are extendible, or have existing modules to add functionality</p>
-            <p>Drupal, Joomla (image here)</p>
+            <p class="text-center"><img src="images/general.jpg">
 
             <h3>Blogs</h3>
             <p>Many blogging platforms have evolved to the level of very sophisticated Web Content Management Systems. Theris focus is on the publishing and repurposing of content, primarily articles and text.</p>
-            <p>WordPress, (image here)</p>
+            <p class="text-center"><img src="images/blogs.jpg"></p>
 
             <h3>E-learning</h3>
             <p>These systems focus specifically on the world of eLearning. Many have built-in functionality for creating curriculums, building quizzes, <a href="https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model" data-toggle="tooltip" data-placement="top" title="Sharable Content Object Reference Model">SCORM</a> compliancy, and support for multiple document types.</p>
-            <p>(image here)</p>
+            <p class="text-center"><img src="images/e-learning.jpg"></p>
 
             <h3>E-commerce</h3>
             <p>Solutions range from full-featured CMS to smaller, eCommerce focused applications. Features include shopping carts, product management, billing and security</p>
-            <p>(image here)</p>
+            <p class="text-center"><img src="images/e-commerce.jpg"></p>
 
             <h3>Wikis</h3>
             <p>These systems contain features that allow you to create and manage fully collaborative Wikis. Can be used alone, or in conjuntion with other site tools.</p>
-            <p>(image here)</p>
+            <p class="text-center"><img src="images/wiki.jpg"></p>
 
             <h3>Social Media</h3>
             <p>Social Media focused systems have the capability to build online communities, manage user profiles, tie into existing networks, and allow messaging and content uploading</p>
-            <p>(image here)</p>
+            <p class="text-center"><img src="images/social-media.jpg"></p>
 
           </section>
 
@@ -121,6 +129,8 @@
 
             <p>Site navigation is typically built dynamically as pages are added based on content.</p>
 
+            <!-- Talk about Wordpress example: post, pages, categories and tags -->
+
           </section>
 
           <section id="6">
@@ -139,8 +149,6 @@
             
             <h2>#7 - LAMP</h2>
 
-            <p>When you're learning more about content management systems, you're bound to hear the term LAMP, especially when dealing with open-source CMSs</p>
-
             <p>LAMP is actually an acronym that represents a stack of open-source software that when used in conjunction with one another create application servers.</p>
 
             <p>LAMP stands for Linux, Apache, MySQL, and PHP, although the scripting languages Pearl and Python often replace PHP in a LAMP stack.</p>
@@ -151,17 +159,25 @@
 
             <h3>Apache</h3>
 
-            <p>Apache HTTP server makes up the next part of the LAMP stack and is a free, open-source web server that has revolutionized the web since its release in 1995. It is by far the most popular web server in use today, and it's used to serve over 60 % of all web sites. </p>
+            <p>Apache HTTP server makes up the next part of the LAMP stack and is a free, open-source web server that has revolutionized the web since its release in 1995. It is by far the most popular web server in use today, and it's used to serve over 60 % of all web sites.</p>
 
             <h3>MySQL</h3>
 
             <p>The next part of the LAMP stack, is often referred to as a type of database. That's not technically correct as MySQL is actually a relational database management system, and as the name implies, helps to create and manage relational databases as part of the LAMP stack.</p>
 
+            <p>Relational databases, store data in multiple tables that have the ability to relate to each other in some way, usually by sharing data keys or properties.</p>
+
+
             <h3>PHP, Pearl or Pyton</h3>
 
             <p>It represents a server-side scripting language that can be used to create web applications or dynamic web sites.</p>
 
+            <p>Many open-source CMSs, including Drupal, Joomla! and WordPress, were built in PHP and are designed to work using the LAMP stack.</p>
 
+          </section>
+
+          <section id="8">
+            <h2 class="end">END</h2>
           </section>
 
           <footer>

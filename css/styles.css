@@ -42,14 +42,17 @@ ul{
 }
 .sidebar{
 	position: fixed;
+	margin-top: 100px;
 }
 .sidebar li{
-	font-size: 24px;
+	font-size: 40px;
+	margin-bottom: 20px;
 }
 .sidebar ul{
 	list-style-type: none;
 }
 img{
-	width: 100%;
+	margin: 20px auto;
+	width: 70%;
 	height: auto;
 }

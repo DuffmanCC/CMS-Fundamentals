@@ -19,6 +19,4 @@ $(document).ready(function(){
     } // End if
   });
 
-  $('[data-toggle="tooltip"]').tooltip();
-
 });
