@@ -54,7 +54,7 @@
               <li>- Few tools existed in the mid 90's to manage online content.</li>
               <li>- At the end of the 90's there was an explosion of proprietary CMS.</li>
               <li>- System tended to be expensive.</li>
-              <li>- Many proprietary CMS were customized based on client's requirements.</li>their needs. </li>
+              <li>- Many proprietary CMS were customized based on client's requirements.</li>
               <li>- For the most part CMS sites were limited to the larger, enterprise-level clients that could afford such services.</li>
             </ul>
             <p class="text-center"><img src="/images/history.jpg" class="img-fluid"></p>
@@ -90,7 +90,7 @@
             <p class="text-center"><img src="images/general.jpg">
 
             <h3>Blogs</h3>
-            <p>Many blogging platforms have evolved to the level of very sophisticated Web Content Management Systems. Theris focus is on the publishing and repurposing of content, primarily articles and text.</p>
+            <p>Many blogging platforms have evolved to the level of very sophisticated Web Content Management Systems. Their focus is on the publishing and repurposing of content, primarily articles and text.</p>
             <p class="text-center"><img src="images/blogs.jpg"></p>
 
             <h3>E-learning</h3>
